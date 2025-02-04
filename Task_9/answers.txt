@@ -1,0 +1,15 @@
+Question 1:
+
+GridSearchCV looks at every possible combination of hyperparameters to find the best model, while RandomizedSearchCV takes a different approach by randomly sampling a subset of hyperparameters. 
+
+Question 2:
+
+RandomizedSearchCV is a great alternative to GridSearchCV, especially when you're dealing with large hyperparameter spaces. This makes it a more efficient way to find the best hyperparameters for your model without a very long process time.
+
+Question 3:
+
+If you're working with a small set of hyperparameters or need to fine-tune your model very carefully, GridSearchCV is the way to go. On the other hand, if you're dealing with a larger range of hyperparameters or want to save some time and computational resources, RandomizedSearchCV is a better choice.
+
+Question 4:
+
+Yes, you can use them together. First, run RandomizedSearchCV to check out a wide range of hyperparameters. After you find the best results, you can use GridSearchCV to fine-tune everything. It’s a great way to optimize your model effectively!
